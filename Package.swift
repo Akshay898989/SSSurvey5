@@ -3,9 +3,9 @@
 
 import PackageDescription
 
-let version = "0.0.1"
-let checksum = "5a70e65d9ba574104bbcb10760a22e53e5417ce3bf7b1888c83a715fcfa9f317"
-let url = "https://github.com/Akshay898989/SSSurvey5/releases/download/0.0.1/SSSurvey5.zip"
+let version = "0.0.2"
+let checksum = "7c4601e4e674cb081b29532c3d55af4a22d5c765224ed48766b064b332d72eae"
+let url = "https://github.com/Akshay898989/SSSurvey5/releases/download/0.0.2/SSSurvey5.zip"
 
 let package = Package(
     name: "SSSurvey5",
