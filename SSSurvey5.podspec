@@ -1,6 +1,8 @@
+version = "0.0.1"
+
 Pod::Spec.new do |s|
   s.name             = "SSSurvey5"
-  s.version          = "0.0.1"
+  s.version          = version
   s.summary          = "The SurveySensum Mobile Feedback SDK for iOS"
   s.homepage         = "https://github.com/Akshay898989/SSSurvey5"
   s.license          = 'MIT'
