@@ -1,0 +1,6 @@
+framework module SSSurvey5 {
+  umbrella header "SSSurvey5.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,2179 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSInAppRequestModel",
+        "printedName": "SSInAppRequestModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "contactInfo",
+            "printedName": "contactInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(py)contactInfo",
+            "mangledName": "$s9SSSurvey519SSInAppRequestModelC11contactInfoSDySSypGSgvp",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)contactInfo",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC11contactInfoSDySSypGSgvg",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)setContactInfo:",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC11contactInfoSDySSypGSgvs",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SSSurvey519SSInAppRequestModelC11contactInfoSDySSypGSgvM",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC11contactInfoSDySSypGSgvM",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "metadata",
+            "printedName": "metadata",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(py)metadata",
+            "mangledName": "$s9SSSurvey519SSInAppRequestModelC8metadataSDySSypGSgvp",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)metadata",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC8metadataSDySSypGSgvg",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)setMetadata:",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC8metadataSDySSypGSgvs",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SSSurvey519SSInAppRequestModelC8metadataSDySSypGSgvM",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC8metadataSDySSypGSgvM",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "triggerValue",
+            "printedName": "triggerValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(py)triggerValue",
+            "mangledName": "$s9SSSurvey519SSInAppRequestModelC12triggerValueSSvp",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)triggerValue",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC12triggerValueSSvg",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)setTriggerValue:",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC12triggerValueSSvs",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SSSurvey519SSInAppRequestModelC12triggerValueSSvM",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC12triggerValueSSvM",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subDomain",
+            "printedName": "subDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(py)subDomain",
+            "mangledName": "$s9SSSurvey519SSInAppRequestModelC9subDomainSSvp",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)subDomain",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC9subDomainSSvg",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)setSubDomain:",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC9subDomainSSvs",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SSSurvey519SSInAppRequestModelC9subDomainSSvM",
+                "mangledName": "$s9SSSurvey519SSInAppRequestModelC9subDomainSSvM",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contactInfo:metadata:triggerValue:subDomain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSInAppRequestModel",
+                "printedName": "SSSurvey5.SSInAppRequestModel",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)initWithContactInfo:metadata:triggerValue:subDomain:",
+            "mangledName": "$s9SSSurvey519SSInAppRequestModelC11contactInfo8metadata12triggerValue9subDomainACSDySSypGSg_AIS2Stcfc",
+            "moduleName": "SSSurvey5",
+            "objc_name": "initWithContactInfo:metadata:triggerValue:subDomain:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSInAppRequestModel",
+                "printedName": "SSSurvey5.SSInAppRequestModel",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel(im)init",
+            "mangledName": "$s9SSSurvey519SSInAppRequestModelCACycfc",
+            "moduleName": "SSSurvey5",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel",
+        "mangledName": "$s9SSSurvey519SSInAppRequestModelC",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSInAppTokenManager",
+        "printedName": "SSInAppTokenManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSInAppTokenManager",
+                "printedName": "SSSurvey5.SSInAppTokenManager",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppTokenManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppTokenManager(cpy)shared",
+            "mangledName": "$s9SSSurvey519SSInAppTokenManagerC6sharedACvpZ",
+            "moduleName": "SSSurvey5",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSInAppTokenManager",
+                    "printedName": "SSSurvey5.SSInAppTokenManager",
+                    "usr": "c:@M@SSSurvey5@objc(cs)SSInAppTokenManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppTokenManager(cm)shared",
+                "mangledName": "$s9SSSurvey519SSInAppTokenManagerC6sharedACvgZ",
+                "moduleName": "SSSurvey5",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setToken",
+            "printedName": "setToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppTokenManager(im)setToken:",
+            "mangledName": "$s9SSSurvey519SSInAppTokenManagerC03setD0yySaySSGF",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getToken",
+            "printedName": "getToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SSSurvey519SSInAppTokenManagerC03getD0SaySSGyF",
+            "mangledName": "$s9SSSurvey519SSInAppTokenManagerC03getD0SaySSGyF",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEncodedToken",
+            "printedName": "getEncodedToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SSSurvey519SSInAppTokenManagerC010getEncodedD0SaySSGyF",
+            "mangledName": "$s9SSSurvey519SSInAppTokenManagerC010getEncodedD0SaySSGyF",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SSSurvey5@objc(cs)SSInAppTokenManager",
+        "mangledName": "$s9SSSurvey519SSInAppTokenManagerC",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSInAppViewController",
+        "printedName": "SSInAppViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "webViewHandler",
+            "printedName": "webViewHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((WebKit.WKWebView?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WebKit.WKWebView?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "WebKit.WKWebView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WKWebView",
+                            "printedName": "WebKit.WKWebView",
+                            "usr": "c:objc(cs)WKWebView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(py)webViewHandler",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC03webD7HandlerySo05WKWebD0CSgcSgvp",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((WebKit.WKWebView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WebKit.WKWebView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "WebKit.WKWebView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "WKWebView",
+                                "printedName": "WebKit.WKWebView",
+                                "usr": "c:objc(cs)WKWebView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)webViewHandler",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC03webD7HandlerySo05WKWebD0CSgcSgvg",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((WebKit.WKWebView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WebKit.WKWebView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "WebKit.WKWebView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "WKWebView",
+                                "printedName": "WebKit.WKWebView",
+                                "usr": "c:objc(cs)WKWebView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)setWebViewHandler:",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC03webD7HandlerySo05WKWebD0CSgcSgvs",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SSSurvey521SSInAppViewControllerC03webD7HandlerySo05WKWebD0CSgcSgvM",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC03webD7HandlerySo05WKWebD0CSgcSgvM",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButtonHandler",
+            "printedName": "closeButtonHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(py)closeButtonHandler",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC18closeButtonHandleryycSgvp",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)closeButtonHandler",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC18closeButtonHandleryycSgvg",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)setCloseButtonHandler:",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC18closeButtonHandleryycSgvs",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SSSurvey521SSInAppViewControllerC18closeButtonHandleryycSgvM",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC18closeButtonHandleryycSgvM",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "submitButtonHandler",
+            "printedName": "submitButtonHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(py)submitButtonHandler",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC19submitButtonHandleryycSgvp",
+            "moduleName": "SSSurvey5",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)submitButtonHandler",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC19submitButtonHandleryycSgvg",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)setSubmitButtonHandler:",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC19submitButtonHandleryycSgvs",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SSSurvey521SSInAppViewControllerC19submitButtonHandleryycSgvM",
+                "mangledName": "$s9SSSurvey521SSInAppViewControllerC19submitButtonHandleryycSgvM",
+                "moduleName": "SSSurvey5",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(requestModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSInAppViewController",
+                "printedName": "SSSurvey5.SSInAppViewController",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SSInAppRequestModel",
+                "printedName": "SSSurvey5.SSInAppRequestModel",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppRequestModel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)initWithRequestModel:",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC12requestModelAcA0bc7RequestG0C_tcfc",
+            "moduleName": "SSSurvey5",
+            "objc_name": "initWithRequestModel:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)viewDidLoad",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC11viewDidLoadyyF",
+            "moduleName": "SSSurvey5",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "SSSurvey5",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
+            "moduleName": "SSSurvey5",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSInAppViewController",
+                "printedName": "SSSurvey5.SSInAppViewController",
+                "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s9SSSurvey521SSInAppViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "SSSurvey5",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SSSurvey5@objc(cs)SSInAppViewController",
+        "mangledName": "$s9SSSurvey521SSInAppViewControllerC",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SSSurvey5",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 23,
+      "value": "\"surveyPerformedStatus\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 19,
+      "value": "\"surveyPerformTime\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppRequestModel.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 19,
+      "value": "\"SSSurvey5.SSInAppRequestModel\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 14,
+      "value": "\"corelationId\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 14,
+      "value": "\"corelationId\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 8,
+      "value": "\"campId\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1229,
+      "length": 12,
+      "value": "\"surveyGuid\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 8,
+      "value": "\"campId\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1229,
+      "length": 12,
+      "value": "\"surveyGuid\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 10,
+      "value": "\"operator\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 10,
+      "value": "\"operator\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 10,
+      "value": "\"operator\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 10,
+      "value": "\"operator\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2261,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2280,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2305,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2261,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2280,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2305,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2261,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2280,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2305,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2356,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2372,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2356,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2372,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2356,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2372,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2429,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2453,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2429,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2453,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2429,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2453,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2532,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2555,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2579,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2532,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2555,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2579,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2532,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2555,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2579,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2642,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2664,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2687,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2642,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2664,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2687,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2642,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2664,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppConfigurationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2687,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppTokenManager.swift",
+      "kind": "Array",
+      "offset": 274,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 21,
+      "value": "\"SSSurvey5.SSInAppViewController\""
+    },
+    {
+      "filePath": "\/Users\/akshaygupta\/Downloads\/SSSurvey5\/SSSurvey5\/Sources\/SSInAppViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

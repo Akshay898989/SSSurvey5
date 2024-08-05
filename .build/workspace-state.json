@@ -1,0 +1,26 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "sssurvey5",
+          "kind" : "root",
+          "location" : "/Users/akshaygupta/SSSurvey5",
+          "name" : "SSSurvey5"
+        },
+        "path" : "/Users/akshaygupta/SSSurvey5/.build/artifacts/sssurvey5/SSSurvey5/SSSurvey5.xcframework",
+        "source" : {
+          "checksum" : "5a70e65d9ba574104bbcb10760a22e53e5417ce3bf7b1888c83a715fcfa9f317",
+          "type" : "remote",
+          "url" : "https://github.com/Akshay898989/SSSurvey5/releases/download/0.0.1/SSSurvey5.zip"
+        },
+        "targetName" : "SSSurvey5"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}
