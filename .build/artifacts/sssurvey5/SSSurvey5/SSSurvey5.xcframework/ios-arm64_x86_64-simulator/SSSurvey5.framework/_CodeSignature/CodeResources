@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/SSSurvey5.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Jd1401ScXhq33U0d+IbAWORW5BA=
+		g5gsQ3m2uQcxma2+FCtWAEgNvw4=
 		</data>
 		<key>Modules/SSSurvey5.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		2AMwPKcCTYt8UG+p0aX2IjQs3mI=
+		5/uT59mazhhFlpn6vPowCfPkBU0=
 		</data>
 		<key>Modules/SSSurvey5.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -64,6 +64,10 @@
 		<data>
 		XluANXZGxb34Da1bjRWPSiEVXaQ=
 		</data>
+		<key>close.png</key>
+		<data>
+		I1LY82r3tzfmS6ukEJtLZZsHR4U=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -78,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rQwA+OT6j4HvhGFAMo6aDFRR7PhrC5TROdvtGVKVmko=
+			Ymz6dLSuXbLJ9maCg0wwyF62nRyOLxUrbu+k0qVrORQ=
 			</data>
 		</dict>
 		<key>Modules/SSSurvey5.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kYiKAa3nj5eHbbfSxhVKFHUOdRZlCuy0VJ5s/wZN0RI=
+			s2uB4bumShErgqtrfQu0Lq0LePW2H+EbBVeqHBAHi98=
 			</data>
 		</dict>
 		<key>Modules/SSSurvey5.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -163,6 +167,13 @@
 			<key>hash2</key>
 			<data>
 			V5GN9ZMI2HZEKhoCNE/yLlspfRlOoTC9rjy7VkGGVC4=
+			</data>
+		</dict>
+		<key>close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QxJDeHOWcuZOZiOR3eh/4MYl0K3O5B/1CtaCFUjAv5k=
 			</data>
 		</dict>
 	</dict>
