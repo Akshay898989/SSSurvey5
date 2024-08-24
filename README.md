@@ -39,10 +39,13 @@ pod 'SurveySensumInApp'</code></pre>
 <p>To use SurveySensumInApp in your Swift code:</p>
 <pre><code>import SurveySensumInApp
 
+
 // Example of initializing and using the framework
+
 var surveyController: SSInAppViewController! = nil
 SSInAppTokenManager.shared.setToken(["XYZ"])
 SSInAppURLManager.shared.setSubDomain("XYZ")
+
 let requestModel:SSInAppRequestModel = SSInAppRequestModel(
 contactInfo: [
 "email":"xyz.com",
@@ -115,19 +118,19 @@ self.surveyController.closeButtonHandler = ^{
 import SurveySensumInApp
 
 struct ContentView: View {
-    @StateObject private var viewModel = SurveyViewModel()
-    @State private var isSurveyPresented = false
-    var body: some View {
-        VStack {
-            Text("Survey App")
-                .font(.largeTitle)
-                .padding()
-            Button("Show Survey") {
-                isSurveyPresented = true
-            }
-        }
-        .background(InAppSurveyView(viewModel: viewModel, isPresented: $isSurveyPresented))
-    }
+@StateObject private var viewModel = SurveyViewModel()
+@State private var isSurveyPresented = false
+var body: some View {
+VStack {
+Text("Survey App")
+.font(.largeTitle)
+.padding()
+Button("Show Survey") {
+isSurveyPresented = true
+}
+}
+.background(InAppSurveyView(viewModel: viewModel, isPresented: $isSurveyPresented))
+}
 }
 
 class SurveyViewModel: ObservableObject {
