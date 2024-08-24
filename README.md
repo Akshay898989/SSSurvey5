@@ -115,19 +115,19 @@ self.surveyController.closeButtonHandler = ^{
 import SurveySensumInApp
 
 struct ContentView: View {
-@StateObject private var viewModel = SurveyViewModel()
-@State private var isSurveyPresented = false
-var body: some View {
-VStack {
-Text("Survey App")
-.font(.largeTitle)
-.padding()
-Button("Show Survey") {
-isSurveyPresented = true
-}
-}
-.background(InAppSurveyView(viewModel: viewModel, isPresented: $isSurveyPresented))
-}
+    @StateObject private var viewModel = SurveyViewModel()
+    @State private var isSurveyPresented = false
+    var body: some View {
+        VStack {
+            Text("Survey App")
+                .font(.largeTitle)
+                .padding()
+            Button("Show Survey") {
+                isSurveyPresented = true
+            }
+        }
+        .background(InAppSurveyView(viewModel: viewModel, isPresented: $isSurveyPresented))
+    }
 }
 
 class SurveyViewModel: ObservableObject {
