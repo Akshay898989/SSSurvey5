@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SurveySensumInApp README</title>
 </head>
 <body>
 
@@ -17,7 +16,10 @@
 <h3>Using CocoaPods</h3>
 <ol>
     <li>Add the following to your <code>Podfile</code>:</li>
-    <pre><code>pod 'SurveySensumInApp', :git => 'https://bitbucket.org/surveysensumdev/ss.inapp.ios.git'</code></pre>
+    <pre><code>source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.0'
+
+pod 'SurveySensumInApp'</code></pre>
     <li>Run <code>pod install</code> to install the framework.</li>
     <li>Open the <code>.xcworkspace</code> file to work on your project.</li>
 </ol>
@@ -38,17 +40,71 @@
 <pre><code>import SurveySensumInApp
 
 // Example of initializing and using the framework
-let surveyManager = SurveyManager()
-surveyManager.startSurvey()</code></pre>
+var surveyController: SSInAppViewController! = nil
+SSInAppTokenManager.shared.setToken(["XYZ"])
+SSInAppURLManager.shared.setSubDomain("XYZ")
+let requestModel:SSInAppRequestModel = SSInAppRequestModel(
+contactInfo: [
+"email":"xyz.com",
+"name":"Test",
+"phoneNumber":234567
+],
+metadata: [
+"browser":"chrome",
+"deviceType":"mobile"
+],
+triggerValue: ""
+)
+
+surveyController = SSInAppViewController(
+requestModel: requestModel
+)
+
+// To listen to callbacks
+surveyController.webViewHandler = { [weak self] webView in
+ // Add webview on screen
+}
+surveyController.closeButtonHandler = {[weak self] in
+
+}
+surveyController.submitButtonHandler = {[weak self] in
+
+}</code></pre>
 
 <h3>In Objective-C</h3>
 <p>To use SurveySensumInApp in your Objective-C code:</p>
 <ol>
     <li>Import the framework:</li>
-    <pre><code>@import SurveySensumInApp;</code></pre>
+    <pre><code>#import &lt;SurveySensumInApp/SurveySensumInApp-Swift.h&gt;</code></pre>
     <li>Initialize and use the framework:</li>
-    <pre><code>SurveyManager *surveyManager = [[SurveyManager alloc] init];
-[surveyManager startSurvey];</code></pre>
+    <pre><code>
+@property (nonatomic, strong) SSInAppViewController *surveyController;
+NSArray *tokens = @[
+@"xyz",
+];
+[[SSInAppTokenManager shared] setToken:tokens];
+[[SSInAppURLManager shared] setSubDomain:@"subdomain-you-get-from-portal"];
+NSDictionary *contactInfo = @{
+@"email": @"xyz.com",
+@"name": @"Test",
+@"phoneNumber": @234567
+};
+
+NSDictionary *metadata = @{
+@"browser": @"chrome",
+@"deviceType": @"mobile"
+};
+SSInAppRequestModel *requestModel = [[SSInAppRequestModel alloc] initWithContactInfo:contactInfo
+metadata:metadata
+triggerValue:@""];
+
+self.surveyController = [[SSInAppViewController alloc] initWithRequestModel:requestModel];
+// To listen to callbacks
+self.surveyController.webViewHandler = ^(WKWebView * _Nullable webview) {
+}
+self.surveyController.closeButtonHandler = ^{
+};
+    </code></pre>
 </ol>
 
 <h3>In SwiftUI</h3>
@@ -59,14 +115,77 @@ surveyManager.startSurvey()</code></pre>
 import SurveySensumInApp
 
 struct ContentView: View {
-    var body: some View {
-        Button(action: {
-            let surveyManager = SurveyManager()
-            surveyManager.startSurvey()
-        }) {
-            Text("Start Survey")
-        }
-    }
+@StateObject private var viewModel = SurveyViewModel()
+@State private var isSurveyPresented = false
+var body: some View {
+VStack {
+Text("Survey App")
+.font(.largeTitle)
+.padding()
+Button("Show Survey") {
+isSurveyPresented = true
+}
+}
+.background(InAppSurveyView(viewModel: viewModel, isPresented: $isSurveyPresented))
+}
+}
+
+class SurveyViewModel: ObservableObject {
+@Published var isSurveyPresented = false
+var surveyController: SSInAppViewController?
+
+func presentSurvey(tokens: [String], contactInfo: [String: Any], metadata: [String: Any], urlMatcher: String) {
+SSInAppTokenManager.shared.setToken(tokens)
+SSInAppURLManager.shared.setSubDomain("subdomain-you-get-from-portal")
+let req = SSInAppRequestModel(contactInfo: contactInfo,metadata: metadata, triggerValue: urlMatcher)
+let surveyController = SSInAppViewController(requestModel: req)
+self.surveyController = surveyController
+
+surveyController.webViewHandler = { [weak surveyController] webView in
+if let webView = webView {
+// Add webview to screen
+}
+}
+
+surveyController.closeButtonHandler = { [weak surveyController] in
+}
+}
+}
+
+struct InAppSurveyView: View {
+@ObservedObject var viewModel: SurveyViewModel
+@Binding var isPresented: Bool
+var body: some View {
+if isPresented{
+InAppSurveyPresenter(viewModel: viewModel)
+}
+}
+}
+struct InAppSurveyPresenter: UIViewControllerRepresentable {
+@ObservedObject var viewModel: SurveyViewModel
+
+func makeUIViewController(context: Context) -> UIViewController {
+let viewController = UIViewController()
+DispatchQueue.main.async {
+viewModel.presentSurvey(
+tokens: ["XYZ"],
+contactInfo: [
+"email": "XYZ.com",
+"name": "Test",
+"phoneNumber": 234567
+],
+metadata: [
+"browser": "chrome",
+"deviceType": "mobile"
+],
+urlMatcher: ""
+)
+}
+return viewController
+}
+
+func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
+}
 }</code></pre>
     <li>Add this view to your SwiftUI app.</li>
 </ol>
